@@ -46,6 +46,7 @@ class TestRunner:
                 function_name = keywords.__getattribute__(step["keyword"])
                 # print(function_name)
                 # 执行方法
-                function_name(step["by"], step["value"], step["data"])
+                # function_name(step["by"], step["value"], step["data"])
+                function_name(step)
 
 
