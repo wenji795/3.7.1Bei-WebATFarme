@@ -17,5 +17,3 @@ def driver_handler():
     driver = get_chrome_driver()
     yield driver
     driver.quit()
-
-    #自动关闭浏览器
